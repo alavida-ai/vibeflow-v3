@@ -1,7 +1,7 @@
 ---
 description: Creates high-quality, value-dense content that serves user intent while incorporating SEO best practices, producing research-backed articles that rank well and provide genuine value
-mode: primary
-model: opencode/claude-sonnet-4
+mode: subagent
+model: opencode/kimi-k2	
 temperature: 0.3
 tools:
   write: true

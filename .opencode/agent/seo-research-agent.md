@@ -1,12 +1,14 @@
 ---
 description: Identifies high-value, bottom-of-funnel keywords for SaaS content marketing with focus on conversion potential
 mode: subagent
-model: openrouter/openai/gpt-4o
+model: opencode/kimi-k2	
 temperature: 0.1
 tools:
   dataForSEO_datalabs_search_intent: true
   dataForSEO_search: true
-  dataForSEO_fetch: true
+  dataForSEO_datalabs_google_keywords_ideas: true
+  dataForSEO_datalabs_google_related_keywords: true
+  dataForSEO_datalabs_google_keyword_overview: true
   write: false
   edit: false
   bash: false
