@@ -12,6 +12,7 @@ tools:
   firecrawl-mcp_firecrawl_extract: true
   firecrawl-mcp_firecrawl_deep_research: true
   firecrawl-mcp_firecrawl_generate_llmstxt: true
+  perplexity-ask_perplexity_ask: true
   write: false
   edit: false
   bash: false
