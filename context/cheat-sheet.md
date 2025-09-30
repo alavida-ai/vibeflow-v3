@@ -3,7 +3,7 @@
 ## Cursor Tips & Tricks
 
 Firstly use the shortcut below to view this file in a human readable format
-- `Cmd+Shift+V` - Preview Markdown file (this will open a new previe tab that sync with edits in the md tab)
+- `Cmd+Shift+V` - Preview Markdown file (this will open a new tab with live preview)
 
 ### Essential Cursor AI Shortcuts
 - `Cmd+K` - Open in-file Cursor chat
