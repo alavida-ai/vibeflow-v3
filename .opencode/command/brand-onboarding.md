@@ -4,7 +4,7 @@ agent: delivery-manager
 ---
 Complete a comprehensive brand strategy development for the user using a human-in-the-loop discovery process that involves guided interviews and validation steps.
 
-**Objective:** populated versions of the strategy template files created in the `/strategy/` folder.
+**Objective:** completed strategy files created in the `/strategy/` folder for the user's brand.
 
 **WORKFLOW EXECUTION:**
 This is a human-in-the-loop workflow requiring user interaction at each phase. Delegate to subagents where specified, but pause for user input and validation before proceeding to next phases.
@@ -26,7 +26,7 @@ Define primary audience through interview:
 - Validate audience locations and market demand
 - Continue until user can picture their ideal customer as a real person
 - Identify top 3 goals/desired outcomes the user wants to achieve with their brand
-- Identify top 3 pain poitns/barriers
+- Identify top 3 pain points/barriers
 
 **Phase 3: Competitive Analysis & Positioning**
 **Human-in-the-Loop Required**: Yes  
@@ -57,7 +57,7 @@ Codify communication style and voice guidelines:
 
 **Phase 6: Template Compilation & Review**
 **Human-in-the-Loop Required**: Yes
-Delegate to @content-writer-agent - Generate final brand templates using all previous responses:
+Generate final brand templates using all previous responses:
 - Create Brand Fundamentals Template (mission, vision, values, audience, positioning)
 - Create Market & Content Strategy Template (competitor analysis, content pillars, channels)
 - Create Tone of Voice Template (communication guidelines, examples, adaptations)
