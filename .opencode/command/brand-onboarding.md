@@ -4,6 +4,8 @@ agent: delivery-manager
 ---
 Complete a comprehensive brand strategy development for the user using a human-in-the-loop discovery process that involves guided interviews and validation steps.
 
+**Objective:** populated versions of the strategy template files created in the `/strategy/` folder.
+
 **WORKFLOW EXECUTION:**
 This is a human-in-the-loop workflow requiring user interaction at each phase. Delegate to subagents where specified, but pause for user input and validation before proceeding to next phases.
 
@@ -64,6 +66,7 @@ Delegate to @content-writer-agent - Generate final brand templates using all pre
 - Provide implementation plan with specific next steps
 
 ## File Structure
+- **Strategy Template Files**: `context/templates/strategy/`
 - **Output Directory**: `/strategy/`
 - **Execution Folder**: `/strategy/YYYY-MM-DD-brand-onboarding/`
 - **Final Templates**: 
