@@ -1,0 +1,30 @@
+{
+  "name": "vibeflow-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev --rootPath app -c \"cd app && next dev\"",
+    "build": "tinacms build --rootPath app && cd app && next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alavida-ai/vibeflow-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alavida-ai/vibeflow-v3/issues"
+  },
+  "homepage": "https://github.com/alavida-ai/vibeflow-v3#readme",
+  "dependencies": {
+    "@opencode-ai/plugin": "^0.14.3",
+    "tinacms": "^2.9.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.11.0",
+    "@types/node": "^24.6.2"
+  }
+}
