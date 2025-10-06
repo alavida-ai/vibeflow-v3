@@ -1,12 +1,11 @@
 ---
-description: Creates high-quality, value-dense content that serves user intent while incorporating SEO best practices, producing research-backed articles that rank well and provide genuine value
+description: Creates high-quality, value-dense content that serves user intent while incorporating SEO best practices, producing research-backed articles that rank well and provide genuine value. Only trigger him when you have access to the competitive analysis and SEO keyword research. 
 mode: subagent
-model: opencode/kimi-k2	
 temperature: 0.3
 tools:
   write: true
   edit: true
-  bash: false
+  bash: true
 ---
 
 # Content Writer Agent

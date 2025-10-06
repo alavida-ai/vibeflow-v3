@@ -1,7 +1,7 @@
 ---
 description: Complete brand strategy development with human-in-the-loop discovery process
-agent: delivery-manager
 ---
+
 Complete a comprehensive brand strategy development for the user using a human-in-the-loop discovery process that involves guided interviews and validation steps.
 
 **Objective:** completed strategy files created in the `/strategy/` folder for the user's brand.

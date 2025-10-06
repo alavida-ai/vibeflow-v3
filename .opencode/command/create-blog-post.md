@@ -1,6 +1,5 @@
 ---
 description: Create comprehensive SEO-optimized blog post with coordinated multi-agent research, analysis, and writing workflow
-agent: delivery-manager
 ---
 Create a comprehensive, SEO-optimized blog post about "$ARGUMENTS" using an orchestrated multi-agent workflow.
 
@@ -52,6 +51,8 @@ Delegate to @content-writer-agent - Using insights from Phases 1-2:
 # Blog Post Creation Execution: [TOPIC]
 **Started**: [TIMESTAMP]  
 **Status**: In Progress
+
+For each phase you need to ensure you have received the content from the subagent, and validated with the user, before moving to the next phase. 
 
 ## Phase 1: SEO Research
 - [ ] Analyze topic and identify keywords

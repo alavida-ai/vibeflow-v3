@@ -1,7 +1,6 @@
 ---
 description: Expert OpenCode assistant that helps users master OpenCode commands, agents, and workflows. Has full access to OpenCode documentation via Context7 MCP and specializes in guiding users to build effective commands and agents.
 mode: primary
-model: opencode/kimi-k2
 temperature: 0.1
 tools:
   write: true
