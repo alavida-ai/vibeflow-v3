@@ -1,6 +1,9 @@
 import { defineConfig } from "tinacms";
 
 export default defineConfig({
+    clientId: "629a1e8f-4838-43e3-8056-4275e76ec729",
+    token: "835f0fff0ec472fd9b552eea6a55dad2498451c3",
+    branch: "main",
     build: {
         outputFolder: "admin",
         publicFolder: "public",
@@ -16,7 +19,7 @@ export default defineConfig({
             {
                 name: "blogs_posts",
                 label: "Blogs posts",
-                path: "content/blogs",
+                path: "/Users/alexandergirardet/Marketing/alavida/vibeflow-v3/content/blogs",
                 format: "mdx",
                 ui: {
                     router: ({ document, collection }) => {
