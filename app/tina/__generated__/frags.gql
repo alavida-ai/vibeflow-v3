@@ -1,5 +1,0 @@
-fragment Blogs_postsParts on Blogs_posts {
-  __typename
-  title
-  body
-}
